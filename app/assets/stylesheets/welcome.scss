@@ -1,0 +1,49 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#piece-moveable {
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+    float: left;
+}
+
+#piece-moveable-clear {
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+    clear: left;
+}
+
+#piece-plain {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    float: left;
+}
+
+#piece-plain-clear {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    clear: left;
+}
+
+#piece-blank {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    background-color: black;
+    outline: none;
+    float: left;
+}
+
+#piece-blank-clear {
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    background-color: black;
+    outline: none;
+    clear: left;
+}

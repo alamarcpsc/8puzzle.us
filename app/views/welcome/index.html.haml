@@ -1,0 +1,33 @@
+.container-fluid
+  .row
+    .col-xs-12{:align => "center"}
+      %h1 Adam presents, 8puzzle.us
+  .row
+    .col-xs-12{:align => "left"}
+      %h3 Technologies used:
+  .row
+    .col-sm-3{:align => "center"}
+      %p Language: Ruby
+    .col-sm-3{:align => "center"}
+      %p Framework: Rails
+    .col-sm-3{:align => "center"}
+      %p Front-end: React
+    .col-sm-3{:align => "center"}
+      %p Stylesheet: Bootstrap
+  .row
+    .col-sm-3{:align => "center"}
+      %p Language: JavaScript
+    .col-sm-3{:align => "center"}
+      %p Preprocessor: Haml
+    .col-sm-3{:align => "center"}
+      %p Hosting: DigitalOcean
+    .col-sm-3{:align => "center"}
+      %p Domain: NameCheap
+  .row
+    .col-xs-12
+      %h3 Description:
+    .col-xs-12{:style => "margin-bottom: 10px"}
+      %p Fully functional 3x3 sliding puzzle game. The puzzle should always be a solvable state. Hitting the Scramble button will shuffle the puzzle pieces around into a new solvable state. The puzzle is able to detect when you have solved it and will display a victory message that is located udnerneath the puzzle.
+  .row
+    .col-xs-12
+      = react_component "Puzzle"
